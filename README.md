@@ -1,24 +1,33 @@
-# Sudoku Solver using CSP
+# 🧩 Sudoku Solver using CSP
 
-## Problem Description
-Solve a 9x9 Sudoku puzzle using Constraint Satisfaction Problem approach.
+## 📌 Problem Description
+This project solves a 9x9 Sudoku puzzle using Artificial Intelligence concepts.  
+It uses the Constraint Satisfaction Problem (CSP) approach to fill missing values while satisfying all constraints.
 
-## Algorithm Used
-- Backtracking (CSP)
-- Constraint checking:
-  - Row
-  - Column
-  - 3x3 grid
+---
 
-## Execution Steps
-1. Run the Python file
-2. Enter Sudoku values (leave empty for blank)
-3. Click "Solve"
+## ⚙️ Algorithm Used
+- Backtracking Algorithm
+- Constraint Satisfaction Problem (CSP)
 
-## Output
-- Displays solved Sudoku
-- Shows "You won" or error
+### Constraints:
+- Each number must be unique in every row
+- Each number must be unique in every column
+- Each number must be unique in every 3x3 grid
 
-## Requirements
-- Python 3.x
-- Tkinter
+---
+
+## 🖥️ Features
+- Simple Graphical User Interface (GUI)
+- User can input Sudoku puzzle
+- Automatically solves the puzzle
+- Displays result instantly
+
+---
+
+## ▶️ How to Run
+
+1. Install Python (3.x)
+2. Run the file:
+   ```bash
+   python sudoku_solver.py
